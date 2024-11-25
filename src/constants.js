@@ -1,0 +1,1 @@
+export const API_URL = 'https://vehicle-marketplace-backend-cxcwakdeg2bcgycz.westeurope-01.azurewebsites.net'

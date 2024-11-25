@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&family=Sono:wght@300&display=swap');
+
+.input-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    padding-left:0.25rem;
+
+}
+
+button.submit-btn {
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight:500;
+    border-radius:5%;
+    transition: color 0.3s ease-in;
+}
+
+button.submit-btn:hover {
+    color:yellow;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+/* Hide the eye icon */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
